@@ -1,13 +1,13 @@
-package com.country2.curd;
+package com.country2.crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CurdApplication {
+public class CrudApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CurdApplication.class, args);
+		SpringApplication.run(CrudApplication.class, args);
 	}
 
 }
