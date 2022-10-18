@@ -15,6 +15,13 @@ public class EmployeeEntity {
 	
 	private Integer id;
 	private String employee_name;
+	private String department;
+	public String getDepartment() {
+		return department;
+	}
+	public void setDepartment(String department) {
+		this.department = department;
+	}
 	public Integer getId() {
 		return id;
 	}
@@ -29,5 +36,8 @@ public class EmployeeEntity {
 	}
 	
 	
+	}
+	
+	
 
-}
+
