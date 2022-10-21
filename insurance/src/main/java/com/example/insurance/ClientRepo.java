@@ -7,10 +7,10 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface ClientRepo extends JpaRepository <ClientEntity, Integer>{
 
-@Query(value = "select * from client_details c where c.client_id=1",nativeQuery = true)
+@Query(value = "select * from client_details c where c.client_id= ?1",nativeQuery = true)
 
 	 
 	
 
-public List<ClientEntity> getjoinclient();
+public List<ClientEntity> getjoinclient(Integer client_id);
 }
